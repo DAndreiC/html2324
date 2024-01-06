@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: serif;
+    background-color: rgb(218, 227, 182);
+}
+
+/*inceputul sidebar-ului */
+.sidebar{
+    position: fixed;
+    background: #73a580;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.sidebar h2{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffff;
+    background: #3e363f;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.sidebar ul li {
+    margin: 25px 0;
+}
+
+.sidebar ul li a{
+    color: #ffff;
+    padding: 0 0px;
+}
+
+.sidebar ul li a:hover{
+    color: black;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+
+/* sfarsitul sidebar-ului */
+
+/* inceputul main content*/
+
+.main{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.main h1{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main h2{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    float:left;
+}
